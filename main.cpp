@@ -65,9 +65,9 @@ int main() {
 #endif
 
 			delete[] arr;
-
-			cout << endl << "Average: " << averageTimes(trials, 5) << "ns" << endl;
 		}
+
+		cout << endl << "Average: " << averageTimes(trials, 5) << "ns" << endl;
 	}
 
 	cout << "Reverse Order:" << endl;
@@ -95,9 +95,9 @@ int main() {
 			trials[trial] = elapsed;
 
 			delete[] arr;
-
-			cout << endl << "Average: " << averageTimes(trials, 5) << "ns" << endl;
 		}
+
+		cout << endl << "Average: " << averageTimes(trials, 5) << "ns" << endl;
 	}
 
 	cout << "Almost Sorted:" << endl;
@@ -130,9 +130,9 @@ int main() {
 			trials[trial] = elapsed;
 
 			delete[] arr;
-
-			cout << endl << "Average: " << averageTimes(trials, 5) << "ns" << endl;
 		}
+
+		cout << endl << "Average: " << averageTimes(trials, 5) << "ns" << endl;
 	}
 
 	return 0;
