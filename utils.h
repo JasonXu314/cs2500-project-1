@@ -9,6 +9,11 @@ int SIZES[] = {10, 1000, 10000, 100000, 200000, 500000};
 template <typename T>
 bool sorted(T* arr, unsigned int n);
 
+template <typename T>
+bool sorted(T* arr, unsigned int a, unsigned int b);
+
+double averageTimes(double* times, unsigned int n);
+
 #include "utils.hpp"
 
 #endif
